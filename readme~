@@ -1,0 +1,1 @@
+HUBOT_SLACK_BOTNAME=sjbot HUBOT_SLACK_TOKEN=xoxb-11393311990-CJmCudsIMHmmSJjgWC4PoFCl bin/hubot --adapter slack

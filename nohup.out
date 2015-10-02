@@ -1,0 +1,147 @@
+[Fri Sep 25 2015 22:01:31 GMT+0000 (UTC)] INFO Connecting...
+[Fri Sep 25 2015 22:01:31 GMT+0000 (UTC)] INFO Logged in as sjbot of astrodata, but not yet connected
+[Fri Sep 25 2015 22:01:39 GMT+0000 (UTC)] INFO Connecting...
+[Fri Sep 25 2015 22:01:40 GMT+0000 (UTC)] INFO Logged in as sjbot of astrodata, but not yet connected
+[Fri Sep 25 2015 22:01:40 GMT+0000 (UTC)] INFO Slack client now connected
+[Fri Sep 25 2015 22:01:40 GMT+0000 (UTC)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Fri Sep 25 2015 22:01:41 GMT+0000 (UTC)] INFO hubot-redis-brain: Using default redis on localhost:6379
+[Sat Sep 26 2015 00:33:19 GMT+0000 (UTC)] ERROR Received error {"code":-1,"msg":"slow down, too many messages..."}
+[Sat Sep 26 2015 00:33:19 GMT+0000 (UTC)] ERROR undefined
+[Sat Sep 26 2015 00:33:19 GMT+0000 (UTC)] ERROR Exiting in 1 second
+[Sat Sep 26 2015 00:33:19 GMT+0000 (UTC)] ERROR Received error {"code":-1,"msg":"slow down, too many messages..."}
+[Sat Sep 26 2015 00:33:19 GMT+0000 (UTC)] ERROR undefined
+[Sat Sep 26 2015 00:33:19 GMT+0000 (UTC)] ERROR Exiting in 1 second
+[Sat Sep 26 2015 00:33:19 GMT+0000 (UTC)] ERROR Received error {"code":-1,"msg":"slow down, too many messages..."}
+[Sat Sep 26 2015 00:33:19 GMT+0000 (UTC)] ERROR undefined
+[Sat Sep 26 2015 00:33:19 GMT+0000 (UTC)] ERROR Exiting in 1 second
+[Sat Sep 26 2015 00:33:19 GMT+0000 (UTC)] ERROR Received error {"code":-1,"msg":"slow down, too many messages..."}
+[Sat Sep 26 2015 00:33:19 GMT+0000 (UTC)] ERROR undefined
+[Sat Sep 26 2015 00:33:19 GMT+0000 (UTC)] ERROR Exiting in 1 second
+[Sat Sep 26 2015 00:33:19 GMT+0000 (UTC)] ERROR Received error {"code":-1,"msg":"slow down, too many messages..."}
+[Sat Sep 26 2015 00:33:19 GMT+0000 (UTC)] ERROR undefined
+[Sat Sep 26 2015 00:33:19 GMT+0000 (UTC)] ERROR Exiting in 1 second
+[Sat Sep 26 2015 00:33:19 GMT+0000 (UTC)] INFO Slack client closed
+[Sat Sep 26 2015 00:36:19 GMT+0000 (UTC)] INFO Connecting...
+[Sat Sep 26 2015 00:36:23 GMT+0000 (UTC)] INFO Connecting...
+[Sat Sep 26 2015 00:36:24 GMT+0000 (UTC)] INFO Logged in as sjbot of astrodata, but not yet connected
+[Sat Sep 26 2015 00:36:25 GMT+0000 (UTC)] INFO Slack client now connected
+[Sat Sep 26 2015 00:36:25 GMT+0000 (UTC)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Sat Sep 26 2015 00:36:25 GMT+0000 (UTC)] INFO hubot-redis-brain: Using default redis on localhost:6379
+[Fri Oct 02 2015 15:47:46 GMT+0000 (UTC)] INFO Connecting...
+[Fri Oct 02 2015 15:47:46 GMT+0000 (UTC)] INFO Logged in as sjbot of astrodata, but not yet connected
+[Fri Oct 02 2015 15:47:47 GMT+0000 (UTC)] INFO Slack client now connected
+[Fri Oct 02 2015 15:47:47 GMT+0000 (UTC)] ERROR Unable to load /home/ec2-user/hubot/scripts/catfacts: ReferenceError: msg is not defined
+  at Object.<anonymous> (/home/ec2-user/hubot/scripts/catfacts.coffee:25:4, <js>:15:3)
+  at Object.<anonymous> (/home/ec2-user/hubot/scripts/catfacts.coffee:16:1, <js>:17:4)
+  at Module._compile (module.js:456:26)
+  at Object.loadFile (/home/ec2-user/hubot/node_modules/hubot/node_modules/coffee-script/lib/coffee-script/coffee-script.js:182:19)
+  at Module.load (/home/ec2-user/hubot/node_modules/hubot/node_modules/coffee-script/lib/coffee-script/coffee-script.js:211:36)
+  at Function.Module._load (module.js:312:12)
+  at Module.require (module.js:364:17)
+  at require (module.js:380:17)
+  at Robot.loadFile (/home/ec2-user/hubot/node_modules/hubot/src/robot.coffee:337:9, <js>:215:20)
+  at Robot.load (/home/ec2-user/hubot/node_modules/hubot/src/robot.coffee:359:9, <js>:238:30)
+  at SlackBot.loadScripts (/home/ec2-user/hubot/node_modules/hubot/bin/hubot:95:5, <js>:98:13)
+  at SlackBot.emit (events.js:92:17)
+  at SlackBot.open (/home/ec2-user/hubot/node_modules/hubot-slack/src/slack.coffee:86:5, <js>:127:19)
+  at Client.<anonymous> (/home/ec2-user/hubot/node_modules/hubot-slack/src/slack.coffee:1:1, <js>:3:61)
+  at Client.emit (events.js:92:17)
+  at Client.onMessage (/home/ec2-user/hubot/node_modules/hubot-slack/node_modules/slack-client/src/client.js:450:21)
+  at WebSocket.<anonymous> (/home/ec2-user/hubot/node_modules/hubot-slack/node_modules/slack-client/src/client.js:140:24)
+  at WebSocket.emit (events.js:98:17)
+  at Receiver.self._receiver.ontext (/home/ec2-user/hubot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/WebSocket.js:697:10)
+  at Receiver.opcodes.1.finish (/home/ec2-user/hubot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/Receiver.js:397:14)
+  at Receiver.expectHandler (/home/ec2-user/hubot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/Receiver.js:384:31)
+  at Receiver.add (/home/ec2-user/hubot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/Receiver.js:93:24)
+  at CleartextStream.firstHandler (/home/ec2-user/hubot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/WebSocket.js:678:22)
+  at CleartextStream.emit (events.js:95:17)
+  at CleartextStream.<anonymous> (_stream_readable.js:765:14)
+  at CleartextStream.emit (events.js:92:17)
+  at emitReadable_ (_stream_readable.js:427:10)
+  at _stream_readable.js:420:7
+  at process._tickCallback (node.js:448:13)
+
+[Fri Oct 02 2015 15:49:12 GMT+0000 (UTC)] INFO Connecting...
+[Fri Oct 02 2015 15:49:13 GMT+0000 (UTC)] INFO Logged in as sjbot of astrodata, but not yet connected
+[Fri Oct 02 2015 15:49:13 GMT+0000 (UTC)] INFO Slack client now connected
+[Fri Oct 02 2015 15:49:13 GMT+0000 (UTC)] ERROR Unable to load /home/ec2-user/hubot/scripts/catfacts: ReferenceError: msg is not defined
+  at Object.<anonymous> (/home/ec2-user/hubot/scripts/catfacts.coffee:25:4, <js>:15:3)
+  at Object.<anonymous> (/home/ec2-user/hubot/scripts/catfacts.coffee:16:1, <js>:17:4)
+  at Module._compile (module.js:456:26)
+  at Object.loadFile (/home/ec2-user/hubot/node_modules/hubot/node_modules/coffee-script/lib/coffee-script/coffee-script.js:182:19)
+  at Module.load (/home/ec2-user/hubot/node_modules/hubot/node_modules/coffee-script/lib/coffee-script/coffee-script.js:211:36)
+  at Function.Module._load (module.js:312:12)
+  at Module.require (module.js:364:17)
+  at require (module.js:380:17)
+  at Robot.loadFile (/home/ec2-user/hubot/node_modules/hubot/src/robot.coffee:337:9, <js>:215:20)
+  at Robot.load (/home/ec2-user/hubot/node_modules/hubot/src/robot.coffee:359:9, <js>:238:30)
+  at SlackBot.loadScripts (/home/ec2-user/hubot/node_modules/hubot/bin/hubot:95:5, <js>:98:13)
+  at SlackBot.emit (events.js:92:17)
+  at SlackBot.open (/home/ec2-user/hubot/node_modules/hubot-slack/src/slack.coffee:86:5, <js>:127:19)
+  at Client.<anonymous> (/home/ec2-user/hubot/node_modules/hubot-slack/src/slack.coffee:1:1, <js>:3:61)
+  at Client.emit (events.js:92:17)
+  at Client.onMessage (/home/ec2-user/hubot/node_modules/hubot-slack/node_modules/slack-client/src/client.js:450:21)
+  at WebSocket.<anonymous> (/home/ec2-user/hubot/node_modules/hubot-slack/node_modules/slack-client/src/client.js:140:24)
+  at WebSocket.emit (events.js:98:17)
+  at Receiver.self._receiver.ontext (/home/ec2-user/hubot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/WebSocket.js:697:10)
+  at Receiver.opcodes.1.finish (/home/ec2-user/hubot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/Receiver.js:397:14)
+  at Receiver.expectHandler (/home/ec2-user/hubot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/Receiver.js:384:31)
+  at Receiver.add (/home/ec2-user/hubot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/Receiver.js:93:24)
+  at CleartextStream.firstHandler (/home/ec2-user/hubot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/WebSocket.js:678:22)
+  at CleartextStream.emit (events.js:95:17)
+  at CleartextStream.<anonymous> (_stream_readable.js:765:14)
+  at CleartextStream.emit (events.js:92:17)
+  at emitReadable_ (_stream_readable.js:427:10)
+  at _stream_readable.js:420:7
+  at process._tickCallback (node.js:448:13)
+
+[Fri Oct 02 2015 15:54:33 GMT+0000 (UTC)] INFO Connecting...
+[Fri Oct 02 2015 15:54:33 GMT+0000 (UTC)] INFO Logged in as sjbot of astrodata, but not yet connected
+[Fri Oct 02 2015 15:54:34 GMT+0000 (UTC)] INFO Slack client now connected
+[Fri Oct 02 2015 15:54:34 GMT+0000 (UTC)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Fri Oct 02 2015 15:54:34 GMT+0000 (UTC)] INFO hubot-redis-brain: Using default redis on localhost:6379
+[Fri Oct 02 2015 16:05:16 GMT+0000 (UTC)] INFO Connecting...
+[Fri Oct 02 2015 16:05:17 GMT+0000 (UTC)] INFO Logged in as sjbot of astrodata, but not yet connected
+[Fri Oct 02 2015 16:05:17 GMT+0000 (UTC)] INFO Slack client now connected
+[Fri Oct 02 2015 16:05:18 GMT+0000 (UTC)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Fri Oct 02 2015 16:05:18 GMT+0000 (UTC)] INFO hubot-redis-brain: Using default redis on localhost:6379
+[Fri Oct 02 2015 16:08:53 GMT+0000 (UTC)] INFO Connecting...
+[Fri Oct 02 2015 16:08:54 GMT+0000 (UTC)] INFO Logged in as sjbot of astrodata, but not yet connected
+[Fri Oct 02 2015 16:08:54 GMT+0000 (UTC)] INFO Slack client now connected
+[Fri Oct 02 2015 16:08:54 GMT+0000 (UTC)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Fri Oct 02 2015 16:08:54 GMT+0000 (UTC)] INFO hubot-redis-brain: Using default redis on localhost:6379
+[Fri Oct 02 2015 17:16:18 GMT+0000 (UTC)] INFO Connecting...
+[Fri Oct 02 2015 17:16:18 GMT+0000 (UTC)] INFO Logged in as sjbot of astrodata, but not yet connected
+[Fri Oct 02 2015 17:16:19 GMT+0000 (UTC)] INFO Slack client now connected
+[Fri Oct 02 2015 17:16:19 GMT+0000 (UTC)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Fri Oct 02 2015 17:16:19 GMT+0000 (UTC)] INFO hubot-redis-brain: Using default redis on localhost:6379
+[Fri Oct 02 2015 17:22:06 GMT+0000 (UTC)] INFO Connecting...
+[Fri Oct 02 2015 17:22:07 GMT+0000 (UTC)] INFO Logged in as sjbot of astrodata, but not yet connected
+[Fri Oct 02 2015 17:22:08 GMT+0000 (UTC)] INFO Slack client now connected
+[Fri Oct 02 2015 17:22:08 GMT+0000 (UTC)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Fri Oct 02 2015 17:22:08 GMT+0000 (UTC)] INFO hubot-redis-brain: Using default redis on localhost:6379
+[Fri Oct 02 2015 17:22:11 GMT+0000 (UTC)] ERROR TypeError: Cannot call method 'lastIndexOf' of undefined
+  at /home/ec2-user/hubot/scripts/manatee.coffee:28:60, <js>:13:40
+  at IncomingMessage.<anonymous> (/home/ec2-user/hubot/node_modules/hubot/node_modules/scoped-http-client/src/index.js:95:22)
+  at IncomingMessage.emit (events.js:117:20)
+  at _stream_readable.js:944:16
+  at process._tickCallback (node.js:448:13)
+
+npm WARN package.json jsdom@0.2.15 'repositories' (plural) Not supported. Please pick one as the 'repository' field
+[Fri Oct 02 2015 17:45:15 GMT+0000 (UTC)] INFO Connecting...
+[Fri Oct 02 2015 17:45:16 GMT+0000 (UTC)] INFO Logged in as sjbot of astrodata, but not yet connected
+[Fri Oct 02 2015 17:45:16 GMT+0000 (UTC)] INFO Slack client now connected
+[Fri Oct 02 2015 17:45:16 GMT+0000 (UTC)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Fri Oct 02 2015 17:45:17 GMT+0000 (UTC)] INFO hubot-redis-brain: Using default redis on localhost:6379
+npm WARN package.json jsdom@0.2.15 'repositories' (plural) Not supported. Please pick one as the 'repository' field
+[Fri Oct 02 2015 20:32:38 GMT+0000 (UTC)] INFO Connecting...
+[Fri Oct 02 2015 20:32:39 GMT+0000 (UTC)] INFO Logged in as sjbot of astrodata, but not yet connected
+[Fri Oct 02 2015 20:32:39 GMT+0000 (UTC)] INFO Slack client now connected
+[Fri Oct 02 2015 20:32:40 GMT+0000 (UTC)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Fri Oct 02 2015 20:32:40 GMT+0000 (UTC)] INFO hubot-redis-brain: Using default redis on localhost:6379
+npm WARN package.json jsdom@0.2.15 'repositories' (plural) Not supported. Please pick one as the 'repository' field
+[Fri Oct 02 2015 20:38:26 GMT+0000 (UTC)] INFO Connecting...
+[Fri Oct 02 2015 20:38:27 GMT+0000 (UTC)] INFO Logged in as sjbot of astrodata, but not yet connected
+[Fri Oct 02 2015 20:38:27 GMT+0000 (UTC)] INFO Slack client now connected
+[Fri Oct 02 2015 20:38:28 GMT+0000 (UTC)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Fri Oct 02 2015 20:38:28 GMT+0000 (UTC)] INFO hubot-redis-brain: Using default redis on localhost:6379
